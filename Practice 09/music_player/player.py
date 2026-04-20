@@ -5,8 +5,8 @@ class MusicPlayer:
         pygame.mixer.init()
 
         self.playlist = [
-            "Practice 07/music_player/music/track1.mp3",
-            "Practice 07/music_player/music/track2.mp3"
+            "Practice 09/music_player/music/track1.mp3",
+            "Practice 09/music_player/music/track2.mp3"
         ]
 
         self.current_index = 0

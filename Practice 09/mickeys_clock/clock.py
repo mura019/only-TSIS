@@ -8,7 +8,7 @@ class McClock:
         self.center = (300, 300)
 
         # загружаем фон
-        self.bg = pygame.image.load("Practice 07/mickeys_clock/images/mickeyclock.jpeg")
+        self.bg = pygame.image.load("Practice 09/mickeys_clock/images/mickeyclock.jpeg")
         self.bg = pygame.transform.scale(self.bg, (600, 600))
 
     def update(self):
