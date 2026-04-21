@@ -170,5 +170,3 @@ def game_loop():
 restart = True
 while restart:
     restart = game_loop()
-
-
