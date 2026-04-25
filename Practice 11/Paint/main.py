@@ -84,6 +84,7 @@ def main():
                 elif mode == 'eraser':
                     drawings.append(('eraser', (0,0,0), event.pos, radius * 2))
 
+
             #Check for mouse button up
             if event.type == pygame.MOUSEBUTTONUP:
                 if event.button == 1 and start_pos:

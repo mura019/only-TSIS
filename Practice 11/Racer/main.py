@@ -208,7 +208,6 @@ def game_loop():
                             return False
             
                 
-
         #Update the display and set the frame rate
         pygame.display.update()
         FramePerSec.tick(FPS)

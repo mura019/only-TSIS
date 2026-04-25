@@ -2,6 +2,7 @@ import pygame, sys, random, time
 import random
 
 
+
 pygame.init()
 
 FPS = 60
@@ -19,7 +20,7 @@ w = 600
 h = 400
 
 #Variables
-SPEED = 5
+SPEED = 7
 SCORE = 0
 LEVEL = 1
 SEG = 20
