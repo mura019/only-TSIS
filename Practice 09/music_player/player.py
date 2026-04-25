@@ -1,5 +1,7 @@
 import pygame
 
+
+
 class MusicPlayer:
     def __init__(self):
         pygame.mixer.init()
