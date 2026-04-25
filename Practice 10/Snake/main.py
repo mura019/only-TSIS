@@ -37,6 +37,7 @@ food_img = pygame.image.load("Practice 10/Snake/images/Coin.png")
 food_img = pygame.transform.scale(food_img, (SEG, SEG))
 
 
+
 #Logic for spawning food
 def spawn_food(snake):
     #Spawn food in random location that is not taken by the snake
