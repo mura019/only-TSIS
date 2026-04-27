@@ -1,0 +1,7 @@
+import db
+
+db.setup_database()
+pid = db.get_or_create_player("TestUser")
+print("player id:", pid)
+db.save_score(pid, 123, 1)
+print("Top 10:", db.get_top_10())
